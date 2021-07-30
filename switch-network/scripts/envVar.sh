@@ -27,18 +27,18 @@ setGlobals() {
     USING_ORG="${OVERRIDE_ORG}"
   fi
   infoln "Using organization ${USING_ORG}"
-  if [ $USING_ORG -eq 1 ]; then
+  if [ $USING_ORG == "One" ]; then
     export CORE_PEER_LOCALMSPID="BankOneMSP"
     export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_ORG1_CA
     export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/BankOne.appzone.com/users/Admin@BankOne.appzone.com/msp
     export CORE_PEER_ADDRESS=localhost:7051
-  elif [ $USING_ORG -eq 2 ]; then
+  elif [ $USING_ORG == "Two" ]; then
     export CORE_PEER_LOCALMSPID="BankTwoMSP"
     export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_ORG2_CA
     export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/BankTwo.appzone.com/users/Admin@BankTwo.appzone.com/msp
     export CORE_PEER_ADDRESS=localhost:9051
 
-  elif [ $USING_ORG -eq 3 ]; then
+  elif [ $USING_ORG == "Three" ]; then
     export CORE_PEER_LOCALMSPID="BankThreeMSP"
     export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_ORG3_CA
     export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/BankThree.appzone.com/users/Admin@BankThree.appzone.com/msp
