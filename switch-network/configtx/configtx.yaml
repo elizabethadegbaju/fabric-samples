@@ -4,7 +4,7 @@ Organizations:
 
     ID: OrdererMSP
 
-    MSPDir: ../organizations/ordererOrganizations/appzone.com/configtx
+    MSPDir: ../organizations/ordererOrganizations/appzone.com/msp
 
     Policies:
       Readers:
@@ -25,7 +25,7 @@ Organizations:
 
     ID: BankOneMSP
 
-    MSPDir: ../organizations/peerOrganizations/BankOne.appzone.com/configtx
+    MSPDir: ../organizations/peerOrganizations/BankOne.appzone.com/msp
 
     Policies:
       Readers:
@@ -46,7 +46,7 @@ Organizations:
 
     ID: BankTwoMSP
 
-    MSPDir: ../organizations/peerOrganizations/BankTwo.appzone.com/configtx
+    MSPDir: ../organizations/peerOrganizations/BankTwo.appzone.com/msp
 
     Policies:
       Readers:
@@ -67,7 +67,7 @@ Organizations:
 
     ID: BankThreeMSP
 
-    MSPDir: ../organizations/peerOrganizations/BankThree.appzone.com/configtx
+    MSPDir: ../organizations/peerOrganizations/BankThree.appzone.com/msp
 
     Policies:
       Readers:
