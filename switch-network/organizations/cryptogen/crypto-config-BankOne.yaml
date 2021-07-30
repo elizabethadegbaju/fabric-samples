@@ -12,7 +12,7 @@ PeerOrgs:
   # BankOne
   # ---------------------------------------------------------------------------
   - Name: BankOne
-    Domain: BankOne.example.com
+    Domain: BankOne.appzone.com
     EnableNodeOUs: true
     # ---------------------------------------------------------------------------
     # "Specs"

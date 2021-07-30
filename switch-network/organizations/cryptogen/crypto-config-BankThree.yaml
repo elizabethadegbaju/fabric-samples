@@ -11,7 +11,7 @@ PeerOrgs:
   # BankThree
   # ---------------------------------------------------------------------------
   - Name: BankThree
-    Domain: BankThree.example.com
+    Domain: BankThree.appzone.com
     EnableNodeOUs: true
     # ---------------------------------------------------------------------------
     # "Specs"
