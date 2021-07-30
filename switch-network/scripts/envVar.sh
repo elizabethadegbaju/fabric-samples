@@ -62,11 +62,11 @@ setGlobalsCLI() {
   else
     USING_ORG="${OVERRIDE_ORG}"
   fi
-  if [ $USING_ORG -eq 1 ]; then
+  if [ $USING_ORG == "One" ]; then
     export CORE_PEER_ADDRESS=peer0.BankOne.appzone.com:7051
-  elif [ $USING_ORG -eq 2 ]; then
+  elif [ $USING_ORG == "Two" ]; then
     export CORE_PEER_ADDRESS=peer0.BankTwo.appzone.com:9051
-  elif [ $USING_ORG -eq 3 ]; then
+  elif [ $USING_ORG == "Three" ]; then
     export CORE_PEER_ADDRESS=peer0.BankThree.appzone.com:11051
   else
     errorln "ORG Unknown"
