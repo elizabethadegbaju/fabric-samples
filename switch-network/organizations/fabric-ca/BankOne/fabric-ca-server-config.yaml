@@ -301,16 +301,16 @@ signing:
 #     CA certificates though it can still issue end entity certificates.
 ###########################################################################
 csr:
-   cn: ca.BankOne.example.com
+   cn: ca.BankOne.appzone.com
    names:
       - C: US
         ST: "North Carolina"
         L: "Durham"
-        O: BankOne.example.com
+        O: BankOne.appzone.com
         OU:
    hosts:
      - localhost
-     - BankOne.example.com
+     - BankOne.appzone.com
    ca:
       expiry: 131400h
       pathlength: 1
